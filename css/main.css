@@ -179,6 +179,9 @@ body {
   .section__FAQ {
     padding: 5rem 20px;
     height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .section__FAQ .wraper {
     max-width: 38rem;
@@ -187,26 +190,21 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 5rem 15px 5rem;
-    background-size: 77%;
-    background-position: center -22rem;
+    background-image: url("./../images/bg-pattern-mobile.svg");
+    background-position: center top;
+    background-size: 88%;
   }
   .section__FAQ .wraper::before {
-    left: 14%;
-    -webkit-transform: translateY(-16.5rem);
-            transform: translateY(-16.5rem);
-    background-position: 0 4.5rem;
-    width: 100px;
+    display: none;
   }
   .section__FAQ .wraper__left {
     width: 100%;
     height: 34.9rem;
-    background-size: 75%;
-    background-position: center;
+    background-image: url("./../images/illustration-woman-online-mobile.svg");
+    background-position: -2.3rem center;
     position: absolute;
-    left: 50%;
-    top: 0;
-    -webkit-transform: translate(-50%, -60%);
-            transform: translate(-50%, -60%);
+    top: -44%;
+    left: 0;
   }
   .section__FAQ .wraper__right {
     max-width: 32rem;
